@@ -1,3 +1,3 @@
 # platzi-store
 
-curso de angular
+curso de angular.
