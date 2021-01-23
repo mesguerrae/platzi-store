@@ -13,6 +13,7 @@ import { ContactComponent } from './components/contact/contact.component';
 import { HeaderComponent } from './components/commons/header/header.component';
 import { FooterComponent } from './components/commons/footer/footer.component';
 import { BannerComponent } from './components/commons/banner/banner.component';
+import { PageNotFoundComponent } from './components/page-not-found/page-not-found.component';
 
 
 @NgModule({
@@ -27,6 +28,7 @@ import { BannerComponent } from './components/commons/banner/banner.component';
     HeaderComponent,
     FooterComponent,
     BannerComponent,
+    PageNotFoundComponent,
   ],
   imports: [
     BrowserModule,
