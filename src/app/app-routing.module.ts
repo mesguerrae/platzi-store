@@ -5,6 +5,7 @@ import { HomeComponent } from './components/home/home.component';
 import { ProductsComponent } from './components/products/products.component';
 import { ContactComponent } from './components/contact/contact.component';
 import { PageNotFoundComponent } from './components/page-not-found/page-not-found.component';
+import { ProductDetailComponent } from './components/product-detail/product-detail.component';
 
 const routes: Routes = [
   {
@@ -21,6 +22,10 @@ const routes: Routes = [
     component: ProductsComponent
   },
   {
+    path: 'products/:id',
+    component: ProductDetailComponent
+  },
+  {
     path: 'contact',
     component: ContactComponent
   },
@@ -28,6 +33,7 @@ const routes: Routes = [
     path: '**',
     component: PageNotFoundComponent
   }
+
 ];
 
 @NgModule({
