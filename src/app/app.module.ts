@@ -10,6 +10,9 @@ import { HighlightDirective } from './directives/highlight.directive';
 import { HomeComponent } from './components/home/home.component';
 import { ProductsComponent } from './components/products/products.component';
 import { ContactComponent } from './components/contact/contact.component';
+import { HeaderComponent } from './components/commons/header/header.component';
+import { FooterComponent } from './components/commons/footer/footer.component';
+import { BannerComponent } from './components/commons/banner/banner.component';
 
 
 @NgModule({
@@ -21,6 +24,9 @@ import { ContactComponent } from './components/contact/contact.component';
     HomeComponent,
     ProductsComponent,
     ContactComponent,
+    HeaderComponent,
+    FooterComponent,
+    BannerComponent,
   ],
   imports: [
     BrowserModule,
